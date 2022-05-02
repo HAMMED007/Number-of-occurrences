@@ -15,13 +15,14 @@ public class Main {
         System.out.println(Arrays.toString(ages));
 
         for (int i = 0; i < ages.length; i++) {
-            // System.out.println(ages[i]);
-
+          
+            //How many people over 30?
             if (ages[i] > 30) {
                 System.out.println(ages[i]);
                 count++;
 
             }
+             //How many teenangers (within the ages of 13 to 19 years old) ?
             if (ages[i] > 12 && ages[i] <= 19) {
                 teenagercount++;
 
